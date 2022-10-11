@@ -1,0 +1,27 @@
+// ABSTRACTS
+//@import '../'
+
+//BASE
+@import './base/reset.scss';
+@import './base/fonts.scss';
+
+// COLORS
+@import './colors/colors.scss';
+
+//COMPONENTS
+@import './components/button.scss';
+
+//PAGES
+@import './pages/home.scss';
+
+//GLOBAL
+
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  background-color: $gray-900;
+  font-family: 'Roboto', sans-serif;
+}
